@@ -91,49 +91,36 @@ select,
 	transition: opacity 300ms linear, color 150ms, background-color 150ms, border-color 150ms;
 }
 
-/* Light Theme - Left Sidebars */
+/* Light Theme - Left Sidebar */
 
 body:not(.dark-mode) .rcx-sidebar {
     background-color: #f2f2f2 !important;
 }
 
+body:not(.dark-mode) .rcx-button:not(.rcx-button--square),
+body:not(.dark-mode) .rcx-sidebar-item,
+body:not(.dark-mode) .rcx-sidebar-item:active,
+body:not(.dark-mode) .rcx-sidebar-item--selected,
 body:not(.dark-mode) .rcx-sidebar-item--highlighted {
-	color: var(--color-darkest) !important;
+	color: #2f343d !important;
 }
 
-body:not(.dark-mode) .rcx-button:not(.rcx-button--square):not(.rcx-button--primary), /* Main top buttons selected */ 
-body:not(.dark-mode) .rcx-sidebar-item, /* Main sidebar item */ 
-body:not(.dark-mode) .rcx-sidebar-item:active,
-body:not(.dark-mode) .rcx-sidebar-item--selected {
-	color: var(--color-dark-light) !important;
+body:not(.dark-mode) .rcx-sidebar-item--selected, 
+body:not(.dark-mode) .rcx-sidebar-item:active {
+	background-color: var(--color-gray) !important;
 }
 
-body:not(.dark-mode) .rcx-sidebar-item--selected, /* Main sidebar item selected */ 
-body:not(.dark-mode) .rcx-sidebar-item:active,
-body:not(.dark-mode) .rcx-css-1l00c5f.active { /* Panels sidebar item selected */
-	background-color: var(--color-gray-medium) !important;
-}
-
-body:not(.dark-mode) .hover.rcx-button, /* Main top buttons hovered */ 
+body:not(.dark-mode) .rcx-sidebar-item--clickable.hover, 
+body:not(.dark-mode) .rcx-sidebar-item--clickable.is-hovered, 
+body:not(.dark-mode) .rcx-sidebar-item--clickable:hover,
+body:not(.dark-mode) .hover.rcx-button, 
 body:not(.dark-mode) .hover.rcx-chip, 
 body:not(.dark-mode) .is-hovered.rcx-button, 
 body:not(.dark-mode) .is-hovered.rcx-chip, 
 body:not(.dark-mode) .rcx-button:hover, 
-body:not(.dark-mode) .rcx-chip:hover,
-body:not(.dark-mode) .rcx-sidebar-item--clickable.hover, /* Main sidebar item selected */ 
-body:not(.dark-mode) .rcx-sidebar-item--clickable.is-hovered, 
-body:not(.dark-mode) .rcx-sidebar-item--clickable:hover,
-body:not(.dark-mode) .rcx-css-1l00c5f:hover, .rcx-css-1l00c5f:focus, .rcx-css-1l00c5f.active:focus, .rcx-css-1l00c5f.active:hover { /* Panels sidebar item hovered */
+body:not(.dark-mode) .rcx-chip:hover {
 	border-color: var(--color-gray-light) !important;
 	background-color: var(--color-gray-light) !important;
-}
-
-body:not(.dark-mode) .rcx-icon--name-kebab.rcx-css-1g87xs3 { /* Sidebar item : kebab menu button */
-    background-color: var(--color-gray-lightest);
-}
-
-body:not(.dark-mode) .rcx-icon--name-kebab.rcx-css-1g87xs3:hover { /* Sidebar item : kebab menu button hovered */
-	background-color: transparent;
 }
 
 body:not(.dark-mode) .rcx-button--ghost {
