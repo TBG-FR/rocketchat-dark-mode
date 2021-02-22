@@ -128,11 +128,11 @@ body:not(.dark-mode) .rcx-css-1l00c5f:hover, .rcx-css-1l00c5f:focus, .rcx-css-1l
 	background-color: var(--color-gray-light) !important;
 }
 
-body:not(.dark-mode) .rcx-css-1g87xs3 { /* Sidebar item : kebab menu button */
+body:not(.dark-mode) .rcx-icon--name-kebab.rcx-css-1g87xs3 { /* Sidebar item : kebab menu button */
     background-color: var(--color-gray-lightest);
 }
 
-body:not(.dark-mode) .rcx-css-1g87xs3:hover { /* Sidebar item : kebab menu button hovered */
+body:not(.dark-mode) .rcx-icon--name-kebab.rcx-css-1g87xs3:hover { /* Sidebar item : kebab menu button hovered */
 	background-color: transparent;
 }
 
