@@ -101,7 +101,7 @@ body:not(.dark-mode) .rcx-sidebar-item--highlighted {
 	color: var(--color-darkest) !important;
 }
 
-body:not(.dark-mode) .rcx-button:not(.rcx-button--square), /* Main top buttons selected */ 
+body:not(.dark-mode) .rcx-button:not(.rcx-button--square):not(.rcx-button--primary), /* Main top buttons selected */ 
 body:not(.dark-mode) .rcx-sidebar-item, /* Main sidebar item */ 
 body:not(.dark-mode) .rcx-sidebar-item:active,
 body:not(.dark-mode) .rcx-sidebar-item--selected {
