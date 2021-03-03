@@ -123,7 +123,10 @@ body:not(.dark-mode) .rcx-chip:hover,
 body:not(.dark-mode) .rcx-sidebar-item--clickable.hover, /* Main sidebar item selected */ 
 body:not(.dark-mode) .rcx-sidebar-item--clickable.is-hovered, 
 body:not(.dark-mode) .rcx-sidebar-item--clickable:hover,
-body:not(.dark-mode) .rcx-css-1l00c5f:hover, .rcx-css-1l00c5f:focus, .rcx-css-1l00c5f.active:focus, .rcx-css-1l00c5f.active:hover { /* Panels sidebar item hovered */
+body:not(.dark-mode) .rcx-css-1l00c5f:hover, 
+body:not(.dark-mode) .rcx-css-1l00c5f:focus, 
+body:not(.dark-mode) .rcx-css-1l00c5f.active:focus,
+body:not(.dark-mode) .rcx-css-1l00c5f.active:hover { /* Panels sidebar item hovered */
 	border-color: var(--color-gray-light) !important;
 	background-color: var(--color-gray-light) !important;
 }
