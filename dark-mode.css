@@ -91,6 +91,10 @@ select,
 	transition: opacity 300ms linear, color 150ms, background-color 150ms, border-color 150ms;
 }
 
+/******************************************
+ *************Light Mode Settings***********
+ ******************************************/
+
 /* Light Theme - Left Sidebars */
 
 body:not(.dark-mode) .rcx-sidebar {
@@ -112,6 +116,15 @@ body:not(.dark-mode) .rcx-sidebar-item--selected, /* Main sidebar item selected 
 body:not(.dark-mode) .rcx-sidebar-item:active,
 body:not(.dark-mode) .rcx-css-1l00c5f.active { /* Panels sidebar item selected */
 	background-color: var(--color-gray-medium) !important;
+}
+
+body:not(.dark-mode) .hover.rcx-button, /* Main top buttons hovered */ 
+body:not(.dark-mode) .rcx-button:not(.rcx-button--square),
+body:not(.dark-mode) .rcx-sidebar-item,
+body:not(.dark-mode) .rcx-sidebar-item:active,
+body:not(.dark-mode) .rcx-sidebar-item--selected,
+body:not(.dark-mode) .rcx-sidebar-item--highlighted {
+	color: #2f343d !important;
 }
 
 body:not(.dark-mode) .hover.rcx-button, /* Main top buttons hovered */ 
