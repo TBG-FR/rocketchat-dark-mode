@@ -369,9 +369,6 @@ body.dark-mode .rcx-user-card .rcx-button:hover {
 
 /* Modals */
 
-/*body.dark-mode .background-info-font-color {
-	background-color: var(--color-dark-medium);
-}*/
 body.dark-mode .rcx-modal__inner,
 body.dark-mode .rcx-modal__footer {
 	background: var(--color-dark);
@@ -380,6 +377,14 @@ body.dark-mode .rcx-modal__footer {
 body.dark-mode .rc-modal__footer,
 body.dark-mode .rc-modal {
 	background: var(--color-darkest);
+}
+
+body.dark-mode .rcx-modal__footer .rcx-button {
+    color: var(--rc-color-primary-darkest);
+}
+
+body.dark-mode .rcx-modal__footer .rcx-button--ghost {
+    color: var(--primary-font-color);
 }
 
 body.dark-mode .rc-modal__content,
