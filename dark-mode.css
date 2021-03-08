@@ -434,6 +434,9 @@ body.dark-mode .rc-member-list__counter {
 
 /**** Select / Dropdowns ****/
 
+body.dark-mode .rcx-autocomplete,
+body.dark-mode .rcx-input-box:not(.rcx-input-box--undecorated),
+body.dark-mode .rcx-input-box__wrapper,
 body.dark-mode .rcx-select {
     background-color: var(--rc-color-primary-darkest) !important;
 }
@@ -708,7 +711,7 @@ body.dark-mode .rcx-input-box__wrapper {
 }
 
 body.dark-mode .rcx-box * .rcx-input-box {
-	background-color: var(--color-dark);
+	/* background-color: var(--color-dark); */
 	color: var(--rc-color-primary);
 }
 
