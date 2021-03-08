@@ -462,6 +462,17 @@ body.dark-mode .rcx-options .rcx-option--selected:hover {
 	background-color: var(--color-dark) !important;
 }
 
+body.dark-mode .rcx-chip {
+	color: var(--primary-font-color);
+	background-color: var(--chip-background);
+}
+
+body.dark-mode .hover.rcx-chip, 
+body.dark-mode .is-hovered.rcx-chip, 
+body.dark-mode .rcx-chip:hover {
+	background-color: var(--color-dark-blue);
+}
+
 /***** Buttons *****/
 
 /* Regular button style */
